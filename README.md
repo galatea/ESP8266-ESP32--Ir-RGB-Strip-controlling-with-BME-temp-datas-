@@ -15,7 +15,7 @@ Bekötés:
  * SCL - D1
  * SDA - D2
  
-* IR Dioda
+IR Dioda
 *  D6 - > Dióda - > 220ohm - >  GND
 
 Kiindulási alap ez volt:
