@@ -10,13 +10,13 @@ Amint lesz időm egyre több funkciót csempészek bele.
 
 Bekötés:
  BME280
-  VCC- VCC
-  GND - GND
-  SCL - D1
-  SDA - D2
+ * VCC- VCC
+ * GND - GND
+ * SCL - D1
+ * SDA - D2
  
- IR Dioda
-  D6 - > Dióda - > 220ohm - >  GND
+* IR Dioda
+*  D6 - > Dióda - > 220ohm - >  GND
 
 Kiindulási alap ez volt:
 https://www.instructables.com/ESP8266-RGB-LED-STRIP-WIFI-Control-NODEMCU-As-a-IR/
