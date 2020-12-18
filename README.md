@@ -1,4 +1,4 @@
-# IrRGBFromBME
+# RGB szalag színváltoztatás hőmérséket változása esetén
 
 Sziasztok
 
