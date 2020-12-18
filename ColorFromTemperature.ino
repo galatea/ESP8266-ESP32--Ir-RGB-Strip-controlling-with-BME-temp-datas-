@@ -19,7 +19,7 @@ const int irPin = 12; // This is 'GPIO12' (D6 on NodeMCU)
 
 /* Network settings */
 const char* ssid = "SSID"; 
-const char* password = "PASS"; 
+const char* password = "pass"; 
 const char* device_name = "led"; 
 IPAddress ip(192,168,43,72);  
 IPAddress gateway(192,168,1,1); // Gatway
@@ -290,9 +290,7 @@ void setup(void) {
   WiFi.config(ip, gateway, subnet);
   irsend.begin();
   Serial.println("");
-    oled.init();                      // Initialze SSD1306 OLED display
-    oled.clearDisplay();              // Clear screen
-  /* Wait for WiFi connection */
+    /* Wait for WiFi connection */
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
@@ -625,8 +623,8 @@ void loop(void) {
   if(homfugg==1){
     Serial.println("adott hom alapjan adok inputot");
     colorTemp();
-
+    printValues();
+    delay(5000);
   }
   server.handleClient();
 }
-
