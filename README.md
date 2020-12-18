@@ -19,4 +19,4 @@ Bekötés:
   D6 - > Dióda - > 220ohm - >  GND
 
 Kiindulási alap ez volt:
-https://www.instructables.com/ESP8266-RGB-LED-STRIP-WIFI.../
+https://www.instructables.com/ESP8266-RGB-LED-STRIP-WIFI-Control-NODEMCU-As-a-IR/
